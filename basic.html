@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>My First JavaScript</h2>
+
+    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+        Click me to display Date and Time.</button>
+
+    <p id="demo"></p>
+
+    <h2>What Can JavaScript Do?</h2>
+
+    <p id="demo1">JavaScript can change HTML content.</p>
+
+    <button type="button" onclick='document.getElementById("demo1").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+
+    <p>JavaScript can change HTML attribute values.</p>
+
+    <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+    <button onclick="document.getElementById('myImage').src='https://www.w3schools.com/js/pic_bulbon.gif'">Turn
+        on</button>
+
+    <img id="myImage" src="https://www.w3schools.com/js/pic_bulboff.gif" style="width:100px">
+
+    <button onclick="document.getElementById('myImage').src='https://www.w3schools.com/js/pic_bulboff.gif'">Turn
+        off</button>
+
+    <p id="dem3">JavaScript can change the style of an HTML element.</p>
+
+    <button type="button" onclick="document.getElementById('dem3').style.fontSize='32px'">Make Me Big!</button>
+
+    <button type="button" onclick="document.getElementById('dem3').style.fontSize='12px'">Make Me Small!</button>
+
+    <button type="button" onclick="document.getElementById('dem3').style.display='none'">Hide Me!</button>
+    <button type="button" onclick="document.getElementById('dem3').style.display='block'">Show Me!</button>
+
+    <h2>Demo JavaScript in Body</h2>
+
+    <p id="demon">A Paragraph.</p>
+
+    <button type="button" onclick="myFunction()">Try it</button>
+    <button type="button" onclick="myFunction2()">Go Back</button>
+
+    <button type="button" onclick="document.write(5+6)">show a number</button>
+    <button type="button" onclick="window.alert('Hi!')">Get an aleart</button>
+
+    <button type="button" onclick="window.print()">Print the Page</button>
+    <p id="adumMath"></p>
+
+    <script>
+        function myFunction() {
+            document.getElementById("demon").innerHTML = "Paragraph changed.";
+        }
+        function myFunction2() {
+            document.getElementById("demon").innerHTML = "A Paragraph.";
+        }
+
+        document.getElementById("adumMath").innerHTML = 9 + 7;
+    </script>
+
+</body>
+
+</html>
