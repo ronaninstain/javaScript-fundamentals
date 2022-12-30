@@ -319,7 +319,7 @@ isArray([5, 8, 1, 0]);
 function regReplace() {
   let ragTxt = document.getElementById("regTxt").innerHTML;
   document.getElementById("regTxt").innerHTML = ragTxt.replace(
-    /github/i,
+    /github/gi,
     "LinkedIn"
   );
 }
